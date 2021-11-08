@@ -34,3 +34,24 @@ export const parameters = {
     ]
   }
 }
+
+export const decorators = [
+  (story, context) => ({
+    template: `
+      <div style="backgroundColor: gray; padding: 10px">
+        <story />
+      </div>
+    `
+  }),
+  (story, context) => ({
+    template: `
+      <div>
+        <h1>${context.kind}</h1>
+        <h2>args</h2>
+        <p>${JSON.stringify(context.args)}</p>
+        <h2>Reuslt</h2>
+        <story />
+      </div>
+    `
+  })
+]
