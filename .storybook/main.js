@@ -11,7 +11,7 @@ module.exports = {
         controls: true,
         docs: true,
         viewport: true,
-        toolbars: false
+        toolbars: true
       }
     }
   ],
