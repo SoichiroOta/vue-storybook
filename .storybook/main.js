@@ -9,7 +9,7 @@ module.exports = {
         actions: true,
         backgrounds: true,
         controls: true,
-        docs: false,
+        docs: true,
         viewport: true,
         toolbars: false
       }
