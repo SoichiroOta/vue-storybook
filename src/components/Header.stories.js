@@ -5,6 +5,7 @@ export default {
   title: 'Header',
   component: Header,
   parameters: {
+    layout: 'fullscreen',
     viewport: {
       viewports: INITIAL_VIEWPORTS,
       defaultViewport: 'iphone6'
