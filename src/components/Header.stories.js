@@ -1,8 +1,15 @@
 import Header from './Header'
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
 
 export default {
   title: 'Header',
   component: Header,
+  parameters: {
+    viewport: {
+      viewports: INITIAL_VIEWPORTS,
+      defaultViewport: 'iphone6'
+    }
+  },
   argTypes: {
     onLogin: {
       action: 'onLogin'

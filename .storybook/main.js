@@ -10,7 +10,7 @@ module.exports = {
         backgrounds: false,
         controls: true,
         docs: false,
-        viewport: false,
+        viewport: true,
         toolbars: false
       }
     }
